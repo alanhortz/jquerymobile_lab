@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Books overview</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>Ogone Library</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search for a book...">
+        	<li>
+            	<a href="detail.html">
+                	<img src="img/book2.jpg" />
+                    <h2>Handcrafted CSS</h2>
+                    <p>Dan Cederholm [0-321-64338-0]</p>
+                    <span class="ui-li-count">Lent by JJA</span>
+                </a>
+            </li>
+        	<li>
+            	<a href="detail.html">
+                	<img src="img/book1.jpg" />
+                    <h2>Pro C# 2010 and the .NET 4 Platform</h2>
+                    <p>Andrew Troelsen [978-1-4302-2549-2]</p>
+                </a>
+            </li>
+            <li>
+            	<a href="detail.html">
+                	<img src="img/book3.jpg" />
+                    <h2>Pro jQuery</h2>
+                    <p>Adam Freeman [978-1430240952]</p>
+                </a>
+            </li>
+        </ul>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
