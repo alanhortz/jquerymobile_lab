@@ -1,3 +1,5 @@
+/* Alan Hortz, Jules Jansen 2013 */
+
 /* stack all grids below 40em (640px) */
 @media all and (max-width: 35em) {
   .my-breakpoint .ui-block-a,
